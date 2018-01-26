@@ -4,6 +4,8 @@ using namespace std;
 
 int main() {
 	int v, r;
+	// v - кол-во вершин
+	// r - кол-во рёбер
 	cin >> v >> r;
 	bool Ep = 1;
 vector <int> G(v, v);
