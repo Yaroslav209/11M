@@ -9,7 +9,7 @@ int main() {
 vector <int> G(v, v);
 for(int i = 0; i < v; i++){
     for(int j = 0; j < v; j++)
-G[i][i] = 0;
+G[i][j] = 0;
 }
 for(int i = 0; i < r; i++){
 	int m, n;
