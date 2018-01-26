@@ -30,7 +30,7 @@ for(int i = 0; i < v; i++){
 		Ep = 0;
 }
 // проверка вершин на чётность степени
-if (Ep = 0) 
+if (Ep == 0) 
 cout << "NONE";
 else cout << "Yes";
 	return 0;
